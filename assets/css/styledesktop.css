@@ -2,7 +2,7 @@
 
 /*FONTS*/
 
-body{
+body {
   font-family: "Open Sans", sans-serif;
   color: #393d41;
   font-size: 1.2rem;
@@ -32,11 +32,12 @@ h4 {
 
 /*HEADER*/
 header img {
-  width: 15%;
+  width: 8%;
 }
 .logo {
   background-color: black;
   padding: 1.2rem;
+  padding-left: 2%;
 }
 
 /*PRIMA PARTE MAIN*/
@@ -54,14 +55,13 @@ header img {
 
 .prima-parte {
   background-image: url(/assets/images/banner.jpg);
-  background-size: cover;
-  padding: 8% 20%;
+  background-size:cover;
+  padding: 15% 37%;
   text-align: center;
   font-size: small;
-  
 }
 
-.prima-parte h1{
+.prima-parte h1 {
   font-size: 1.5rem;
 }
 
@@ -80,9 +80,10 @@ header img {
 }
 .seconda-parte p {
   margin-bottom: 5%;
+  padding-right: 25%;
 }
 
-.seconda-parte div{
+.seconda-parte div {
   font-size: 70%;
   display: inline-block;
 }
@@ -117,11 +118,14 @@ header img {
 /*ASIDE*/
 
 aside {
-  padding: 15% 8%;
+  padding: 6% 8%;
+  text-align: center;
 }
 
-aside div{
+aside div {
   display: inline-block;
+  width: 25%;
+  margin: 15px;
 }
 
 .tuoPC {
@@ -162,13 +166,21 @@ aside div{
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;
-  padding: 8%;
+  padding: 4%;
+}
+
+.central,
+.copyright {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer h2 {
   color: white;
   font-size: xx-large;
   padding-bottom: 4%;
+  text-align: center;
 }
 
 footer a {
@@ -177,11 +189,14 @@ footer a {
 
 .linea {
   border-top: 1px solid #c8e7f0;
-  width: 60%;
-  margin-top: 8%;
-  margin-bottom: 8%;
+  width: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   margin-left: auto;
   margin-right: auto;
 }
 
-footer .copyright{font-size: small;}
+footer .copyright {
+  font-size: small;
+  text-align: center;
+}
