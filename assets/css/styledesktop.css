@@ -1,0 +1,187 @@
+/* Your styles here */
+
+/*FONTS*/
+
+body{
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  line-height: 1;
+  font-size: xx-large;
+  padding-bottom: 20px;
+}
+h2 {
+  color: #25a2c3;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+h4 {
+  color: #25a2c3;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  line-height: 2.5;
+}
+
+/*HEADER*/
+header img {
+  width: 15%;
+}
+.logo {
+  background-color: black;
+  padding: 1.2rem;
+}
+
+/*PRIMA PARTE MAIN*/
+
+.prima-parte button {
+  background-color: #f04c2f;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.prima-parte {
+  background-image: url(/assets/images/banner.jpg);
+  background-size: cover;
+  padding: 8% 20%;
+  text-align: center;
+  font-size: small;
+  
+}
+
+.prima-parte h1{
+  font-size: 1.5rem;
+}
+
+/*SECONDA PARTE MAIN*/
+
+.seconda-parte {
+  padding: 8%;
+}
+
+.seconda-parte img {
+  border-radius: 50%;
+  width: 80%;
+  _margin: 20px;
+  _margin-left: 10%;
+  display: inline-block;
+}
+.seconda-parte p {
+  margin-bottom: 5%;
+}
+
+.seconda-parte div{
+  font-size: 70%;
+  display: inline-block;
+}
+
+.notebook {
+  padding-left: 25%;
+}
+
+/*TERZA PARTE MAIN*/
+
+.terza-parte {
+  background-color: #e62d10;
+  color: white;
+  padding: 5% 8%;
+  text-align: center;
+}
+
+.terza-parte h2 {
+  color: white;
+  font-size: xx-large;
+}
+
+.terza-parte blockquote {
+  font-style: italic;
+  padding: 2%;
+}
+
+.terza-parte p {
+  font-size: 0.9rem;
+}
+
+/*ASIDE*/
+
+aside {
+  padding: 15% 8%;
+}
+
+aside div{
+  display: inline-block;
+}
+
+.tuoPC {
+  border: 2px solid #dee1e3;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 1.5%;
+  border-bottom-right-radius: 1.5%;
+}
+
+.tuoPC img {
+  width: 100%;
+}
+
+.imparaOra {
+  border: 2px solid #dee1e3;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 1.5%;
+  border-bottom-right-radius: 1.5%;
+}
+
+.imparaOra img {
+  width: 100%;
+}
+
+.lavoroSubito {
+  border: 2px solid #dee1e3;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 1.5%;
+  border-bottom-right-radius: 1.5%;
+}
+
+.lavoroSubito img {
+  width: 100%;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  padding: 8%;
+}
+
+footer h2 {
+  color: white;
+  font-size: xx-large;
+  padding-bottom: 4%;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+.linea {
+  border-top: 1px solid #c8e7f0;
+  width: 60%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .copyright{font-size: small;}
